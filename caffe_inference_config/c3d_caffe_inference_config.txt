@@ -1,0 +1,10 @@
+net_name = c3d
+prototxt_path = ./c3d/deploy.prototxt
+caffemodel_path = ./c3d/deploy.caffemodel
+mean_file_path = null
+image_path = ./dog.jpg
+valB = 0
+valG = 0
+valR = 0
+std  = 1
+output_path = ./caffe_inference_result/c3d_caffe_inference_result.txt

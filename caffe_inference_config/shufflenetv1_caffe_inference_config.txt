@@ -1,0 +1,10 @@
+net_name = shufflenetv1
+prototxt_path = ./ShuffleNetV1/shufflenet_1x_g3_deploy.prototxt
+caffemodel_path = ./ShuffleNetV1/shufflenet_1x_g3.caffemodel
+mean_file_path = null
+image_path = ./dog.jpg
+valB = 0
+valG = 0
+valR = 0
+std  = 1
+output_path = ./caffe_inference_result/shufflenetv1_caffe_inference_result.txt
